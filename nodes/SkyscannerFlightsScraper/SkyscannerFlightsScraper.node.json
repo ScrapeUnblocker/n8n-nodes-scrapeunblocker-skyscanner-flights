@@ -1,0 +1,32 @@
+{
+	"node": "n8n-nodes-scrapeunblocker-skyscanner-flights.skyscannerFlightsScraper",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": [
+		"Data & Storage",
+		"Miscellaneous"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/ScrapeUnblocker/n8n-nodes-scrapeunblocker-skyscanner-flights#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/ScrapeUnblocker/n8n-nodes-scrapeunblocker-skyscanner-flights#readme"
+			}
+		]
+	},
+	"alias": [
+		"skyscanner",
+		"flights",
+		"airfare",
+		"flight prices",
+		"airlines",
+		"travel",
+		"tickets",
+		"apify",
+		"scrapeunblocker"
+	]
+}
