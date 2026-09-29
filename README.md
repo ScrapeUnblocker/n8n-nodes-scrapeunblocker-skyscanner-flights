@@ -55,7 +55,6 @@ The token starts with `apify_api_`. Treat it like a password: anyone who has it 
 
 Already have an **Apify API** credential in n8n (for example from the official Apify node)? This node uses the same credential type, so you can simply select it.
 
-
 ## Operations
 
 Pick a **Resource** and an **Operation**. Each n8n input item starts one Apify run. List fields accept several values separated by commas or new lines, or an array returned by an expression.
@@ -94,7 +93,6 @@ The node can be attached to an n8n **AI Agent** as a tool, so the agent can call
 ## Output
 
 - One item per itinerary, cheapest first, with price (number and formatted) and currency, airlines, total stops, a round-trip flag, the outbound flight's airports, cities, times, duration and stops at the top level, and the outbound and (for a round trip) inbound legs with airports, cities, departure and arrival times, duration in minutes, stops and airline.
-
 
 Fields of a returned item: `price`, `priceFormatted`, `currency`, `airline`, `from`, `to`, `fromCity`, `toCity`, `departure`, `arrival`, `duration`, `durationMinutes`, `stops`, `isReturn`, `airlines`, `totalStops`, `outbound`, `inbound`, `legs`, `id`.
 
